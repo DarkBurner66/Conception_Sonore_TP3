@@ -168,7 +168,8 @@ namespace Gamekit3D
         }
 
         public void Shoot()
-        {
+        {   
+            Debug.Log("allo");
             throwAudioPlayer.PlayRandomClip();
 
             Vector3 toTarget = m_GrenadeTarget - transform.position;
