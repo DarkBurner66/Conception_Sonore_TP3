@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -15,7 +16,7 @@ namespace Gamekit3D
             ORIENTED_ABOVE,
             ORIENTED_FACE
         }
-
+        
         public static readonly int hashInPursuitParam = Animator.StringToHash("InPursuit");
         public static readonly int hashSpeedParam = Animator.StringToHash("Speed");
         public static readonly int hashTurnAngleParam = Animator.StringToHash("Angle");
@@ -34,7 +35,7 @@ namespace Gamekit3D
 
         public float meleeRange = 4.0f;
         public float rangeRange = 10.0f;
-
+        
         public MeleeWeapon fistWeapon;
         public RangeWeapon grenadeLauncher;
 
@@ -56,7 +57,8 @@ namespace Gamekit3D
         public RandomAudioPlayer footstepAudioPlayer;
         public RandomAudioPlayer throwAudioPlayer;
         public RandomAudioPlayer punchAudioPlayer;
-
+        public GameObject _musiqueZone;
+      
         protected PlayerController m_Target;
         //used to store the position of the target when the Grenadier decide to shoot, so if the player
         //move between the start of the animation and the actual grenade launch, it shoot were it was not where it is now
@@ -137,8 +139,10 @@ namespace Gamekit3D
         {
             deathAudioPlayer.PlayRandomClip();
             m_EnemyController.animator.SetTrigger(hashDeathParam);
+            _musiqueZone.SetActive(true);
+           
         }
-
+       
         public void ActivateShield()
         {
             shield.SetActive(true);
