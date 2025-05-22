@@ -1449,22 +1449,10 @@ MonoBehaviour:
   defaultBank:
     name: 
     clips:
-    - {fileID: 8300000, guid: c1c63d14bc9d9497b8f9b39c4ea3b1c7, type: 3}
-    - {fileID: 8300000, guid: 824847d62ccd14ff6b07903f9e05cfba, type: 3}
-    - {fileID: 8300000, guid: 4a528072e8ad445f28ddd34c84ecd462, type: 3}
-    - {fileID: 8300000, guid: 92e156953d62c4513a1a60f1b871d233, type: 3}
-    - {fileID: 8300000, guid: c2ab714771dae4836a6a3522a9748b11, type: 3}
-    - {fileID: 8300000, guid: 11e52601a1d3b4e0798b4243d08f17ab, type: 3}
-    - {fileID: 8300000, guid: 35826db396251463590686ad377413e8, type: 3}
-    - {fileID: 8300000, guid: a2e3e84de5b584e33b275126431dea5a, type: 3}
-    - {fileID: 8300000, guid: a33f1c181edb64a36a17f71ec8c8db58, type: 3}
-    - {fileID: 8300000, guid: b0f55fb2fae9744939a1dea66f139c79, type: 3}
-    - {fileID: 8300000, guid: fce2f1f6c101f45bbae456ddcd524a0d, type: 3}
-    - {fileID: 8300000, guid: b1a927b83b4394e17b6b0e380ca35d34, type: 3}
-    - {fileID: 8300000, guid: 859d527f503a74dfcb549cb59dc0217d, type: 3}
-    - {fileID: 8300000, guid: 70f6c9ce42fc64b4e9c0a82f7f33e3a8, type: 3}
-    - {fileID: 8300000, guid: 82aeda075249b4f079a224f18dc3fabb, type: 3}
-    - {fileID: 8300000, guid: c17dbba8e12e842f89fe6790df8e14e0, type: 3}
+    - {fileID: 8300000, guid: 1ba6aac1761f9423f98718e51eee5155, type: 3}
+    - {fileID: 8300000, guid: 00b457c335aeb46f4a101701a95c73cf, type: 3}
+    - {fileID: 8300000, guid: a226307d9f2c84c9c83bc9215460c6d2, type: 3}
+    - {fileID: 8300000, guid: 6e7f040adb6f14fbb8a7c90a3551b1ea, type: 3}
   overrides: []
   playing: 0
   canPlay: 0
