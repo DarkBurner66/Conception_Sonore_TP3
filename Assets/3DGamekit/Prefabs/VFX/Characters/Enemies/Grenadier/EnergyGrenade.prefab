@@ -5043,16 +5043,13 @@ MonoBehaviour:
   defaultBank:
     name: 
     clips:
-    - {fileID: 8300000, guid: 401db7b243be8420d9b7cc6e4ccfd2c9, type: 3}
-    - {fileID: 8300000, guid: dae2a4f422ba74eb08cbef1dbd922884, type: 3}
-    - {fileID: 8300000, guid: c49b6198a3a2b4596bf93f0a37561793, type: 3}
-    - {fileID: 8300000, guid: 60c8890c93a77451c9ca33ec63e1bbf4, type: 3}
-    - {fileID: 8300000, guid: 84929eac1a0f541b79e2d2a104118522, type: 3}
-    - {fileID: 8300000, guid: 7575b748586d14b1e8b792be5304c1e3, type: 3}
-    - {fileID: 8300000, guid: 8daee948bba2d46d3b44b5bce81698e6, type: 3}
-    - {fileID: 8300000, guid: 3d6364aca818245b3b570a23b79ad226, type: 3}
-    - {fileID: 8300000, guid: d9add775350184a7ab41db9c258b7706, type: 3}
-    - {fileID: 8300000, guid: f5d4b5ee2865e4e9b85ec4ab4da82c04, type: 3}
+    - {fileID: 8300000, guid: 706b31e2144814e9a90aa1b53ec68e4a, type: 3}
+    - {fileID: 8300000, guid: 5e59eb04ae1674aeb8b5ea0bac3903dd, type: 3}
+    - {fileID: 8300000, guid: 7dfb1e75c65f8426baf08aa0bd43ef8f, type: 3}
+    - {fileID: 8300000, guid: 1210f29c7baae4c2586705bb7e2ece06, type: 3}
+    - {fileID: 8300000, guid: 23451a84cee0f408ea909da21a3ed35e, type: 3}
+    - {fileID: 8300000, guid: 804474a69e74746e393bfa0586a8c284, type: 3}
+    - {fileID: 8300000, guid: ad21a515940af4015bc5283d23b7e70c, type: 3}
   overrides: []
   playing: 0
   canPlay: 0
