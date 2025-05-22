@@ -45286,10 +45286,10 @@ MonoBehaviour:
   defaultBank:
     name: 
     clips:
-    - {fileID: 8300000, guid: 576b3e457925a47f48a95bcb99bf81cf, type: 3}
-    - {fileID: 8300000, guid: d88d7df6399ff4c8ab159cffc5d962ab, type: 3}
-    - {fileID: 8300000, guid: c3e51fab213154f5abb468a01863ce90, type: 3}
-    - {fileID: 8300000, guid: efa686b043adf4b8992ca654ccf80921, type: 3}
+    - {fileID: 8300000, guid: 28e5f2916c7784bb6ab0d2e35cf1919b, type: 3}
+    - {fileID: 8300000, guid: 1f18c824ec6e64841801b8793cee8af8, type: 3}
+    - {fileID: 8300000, guid: c674fa9d529f349198badeafc7f65a1a, type: 3}
+    - {fileID: 8300000, guid: fc8c0bd4d71d14fda95fe6441ab2b11f, type: 3}
   overrides: []
   playing: 0
   canPlay: 0
