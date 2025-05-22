@@ -39845,7 +39845,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
-  m_Pitch: 1
+  m_Pitch: 0.26
   Loop: 0
   Mute: 0
   Spatialize: 1
@@ -39941,27 +39941,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   randomizePitch: 0
-  pitchRandomRange: 0.2
+  pitchRandomRange: 0.71
   playDelay: 0
   defaultBank:
     name: 
     clips:
-    - {fileID: 8300000, guid: e7a1b19979fab4bf89f037c365af7143, type: 3}
-    - {fileID: 8300000, guid: c3f0080a56fe34042807a7bd4a5ad9b9, type: 3}
-    - {fileID: 8300000, guid: afc966389fd2e4a44a35b9c29dd1c22c, type: 3}
-    - {fileID: 8300000, guid: 79df23599727a4c958105e6342c03ec8, type: 3}
-    - {fileID: 8300000, guid: f9de0adb275114598b0c2422cc44d868, type: 3}
-    - {fileID: 8300000, guid: dec06ed3f9b0b403ca9a0adda8d61bf3, type: 3}
-    - {fileID: 8300000, guid: 82f0840154e3a4ec3a839da9bc122c74, type: 3}
-    - {fileID: 8300000, guid: e886d73d763d044079d8fc67d9a0e1a2, type: 3}
-    - {fileID: 8300000, guid: b915e6bb8ee9546908848f8d0eda0421, type: 3}
-    - {fileID: 8300000, guid: 94d01e6a618d04e3197f8b389ed90e86, type: 3}
-    - {fileID: 8300000, guid: f7e31c8f442b64013bcdfac71b05270e, type: 3}
-    - {fileID: 8300000, guid: 4e86bc03df4824343b094f25b8122ce8, type: 3}
-    - {fileID: 8300000, guid: fe6b9ea7075cf442a949151879b4c303, type: 3}
-    - {fileID: 8300000, guid: aa99dc31c321e40248e1b3aa5039a751, type: 3}
-    - {fileID: 8300000, guid: 3fffacdf1856d4d65814b5a216ff166a, type: 3}
-    - {fileID: 8300000, guid: 48e2b880efe944481bb0a00e09ad36f7, type: 3}
+    - {fileID: 8300000, guid: e498a56cb962042308721ab190226d71, type: 3}
+    - {fileID: 8300000, guid: 4c35eae86e02f418cb39a117b162c68d, type: 3}
+    - {fileID: 8300000, guid: 99089b2186d6c4375979c209723f20aa, type: 3}
+    - {fileID: 8300000, guid: eb163688129164332983739867f55c70, type: 3}
+    - {fileID: 8300000, guid: 61fa8fc927f3a412891d47247e1d9de3, type: 3}
+    - {fileID: 8300000, guid: 108ec7cee20b543a48a2c9193d338220, type: 3}
+    - {fileID: 8300000, guid: 378e9aa0395ba40e284b57c4fd849ad6, type: 3}
+    - {fileID: 8300000, guid: c76a64e422042464aa298635c794f512, type: 3}
   overrides: []
   playing: 0
   canPlay: 0
@@ -95552,6 +95544,7 @@ MonoBehaviour:
   footstepAudioPlayer: {fileID: 114402400383904146}
   throwAudioPlayer: {fileID: 114361115536278644}
   punchAudioPlayer: {fileID: 114772249591448920}
+  _musiqueZone: {fileID: 0}
 --- !u!195 &195657170040882262
 NavMeshAgent:
   m_ObjectHideFlags: 0
