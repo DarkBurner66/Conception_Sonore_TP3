@@ -90255,7 +90255,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.895
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -90357,11 +90357,10 @@ MonoBehaviour:
   defaultBank:
     name: 
     clips:
-    - {fileID: 8300000, guid: 2362c805266014a18bf40ae1cc97e241, type: 3}
-    - {fileID: 8300000, guid: 922567880fdcd4e729fa04328c7b6c4a, type: 3}
-    - {fileID: 8300000, guid: 571f32646f5b643afa09a3e8f3146b39, type: 3}
-    - {fileID: 8300000, guid: 58e6a23571d264cdfbb0a611a0b05cca, type: 3}
-    - {fileID: 8300000, guid: d0ad6fddead8642d5be37cc3b7f599ce, type: 3}
+    - {fileID: 8300000, guid: 003123b181c7a47b2b9822965d033cb5, type: 3}
+    - {fileID: 8300000, guid: 964d3c043586b4a3085c1fab56ffe07f, type: 3}
+    - {fileID: 8300000, guid: e6a7855649fa84bb5b058f6b4eeff542, type: 3}
+    - {fileID: 8300000, guid: 446bebd72164343f7b746bb41170faf9, type: 3}
   overrides: []
   playing: 0
   canPlay: 0
